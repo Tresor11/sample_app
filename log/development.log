@@ -494,3 +494,219 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:20:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 398ms (Views: 396.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:20:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:20:51 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2019-12-25 11:20:53 +0200
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:20:56 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:25:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tresor/sample_app/app/views/layouts/_header.html.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+...ign up now!", signup_path class="btn" );@output_buffer.safe_...
+...                          ^~~~~):
+  
+app/views/layouts/_header.html.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878569004460'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:25:56 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 500 Internal Server Error in 499ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tresor/sample_app/app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+...gn up now!", signup_path class: "btn");@output_buffer.safe_a...
+...                         ^~~~~~):
+  
+app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878513982880'
+Started GET "/help" for 127.0.0.1 at 2019-12-25 11:26:13 +0200
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tresor/sample_app/app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+...gn up now!", signup_path class:"btn");@output_buffer.safe_ap...
+...                         ^~~~~~):
+  
+app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878555936580'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:26:22 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tresor/sample_app/app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+...gn up now!", signup_path class:"btn");@output_buffer.safe_ap...
+...                         ^~~~~~):
+  
+app/views/layouts/_header.html.erb:8: syntax error, unexpected tLABEL, expecting do or '{' or '('
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878648490280'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:26:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 827ms (Views: 825.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:26:53 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tresor/sample_app/app/views/layouts/_header.html.erb:8: syntax error, unexpected '='
+...n up now!", signup_path ,class="btn");@output_buffer.safe_ap...
+...                              ^):
+  
+app/views/layouts/_header.html.erb:8: syntax error, unexpected '='
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878648495240'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:27:11 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:27:32 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:30:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1174.7ms)
+Completed 500 Internal Server Error in 1179ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_path' for #<#<Class:0x00007f1bc81bff40>:0x00007f1bbd06e520>
+Did you mean?  view_paths):
+     7:     sample application.
+     8:   </h2>
+     9: 
+    10:   <%= link_to "Sign up now!", new_path , class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.jpg", alt: "Rails logo"),
+  
+app/views/static_pages/home.html.erb:10:in `_app_views_static_pages_home_html_erb__2357537529549248679_69878556097820'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:31:40 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (302.1ms)
+Completed 500 Internal Server Error in 2369ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_path' for #<#<Class:0x00007f1bc81bff40>:0x00007f1bc02388a8>):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path%></li>
+     7:         <li><%= link_to "Help",  help_path %></li>
+     8:         <li><%= link_to "Log in", login_path %></li>
+     9:       </ul>
+    10:     </nav>
+    11:   </div>
+  
+app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__4152636135772908174_47180312776580'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2184071384283649000_69878582143740'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:32:53 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:33:19 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2019-12-25 11:33:44 +0200
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (18.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 303ms (Views: 301.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-12-25 11:33:49 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 143ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
